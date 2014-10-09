@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		5BAF127019E6145400B01A40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF126F19E6145400B01A40 /* AppDelegate.swift */; };
 		5BAF127319E6145400B01A40 /* RSSFirstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF127119E6145400B01A40 /* RSSFirstApp.xcdatamodeld */; };
-		5BAF127519E6145400B01A40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF127419E6145400B01A40 /* ViewController.swift */; };
 		5BAF127819E6145400B01A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF127619E6145400B01A40 /* Main.storyboard */; };
 		5BAF127A19E6145400B01A40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF127919E6145400B01A40 /* Images.xcassets */; };
 		5BAF127D19E6145400B01A40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BAF127B19E6145400B01A40 /* LaunchScreen.xib */; };
 		5BAF128919E6145400B01A40 /* RSSFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF128819E6145400B01A40 /* RSSFirstAppTests.swift */; };
+		5BAF129319E6157500B01A40 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF129219E6157500B01A40 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		5BAF126E19E6145400B01A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BAF126F19E6145400B01A40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BAF127219E6145400B01A40 /* RSSFirstApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSSFirstApp.xcdatamodel; sourceTree = "<group>"; };
-		5BAF127419E6145400B01A40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BAF127719E6145400B01A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BAF127919E6145400B01A40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BAF127C19E6145400B01A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5BAF128219E6145400B01A40 /* RSSFirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSFirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAF128719E6145400B01A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BAF128819E6145400B01A40 /* RSSFirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFirstAppTests.swift; sourceTree = "<group>"; };
+		5BAF129219E6157500B01A40 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				5BAF126F19E6145400B01A40 /* AppDelegate.swift */,
-				5BAF127419E6145400B01A40 /* ViewController.swift */,
+				5BAF129219E6157500B01A40 /* TableViewController.swift */,
 				5BAF127619E6145400B01A40 /* Main.storyboard */,
 				5BAF127919E6145400B01A40 /* Images.xcassets */,
 				5BAF127B19E6145400B01A40 /* LaunchScreen.xib */,
@@ -215,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BAF127519E6145400B01A40 /* ViewController.swift in Sources */,
 				5BAF127019E6145400B01A40 /* AppDelegate.swift in Sources */,
+				5BAF129319E6157500B01A40 /* TableViewController.swift in Sources */,
 				5BAF127319E6145400B01A40 /* RSSFirstApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
